@@ -12,7 +12,7 @@ def get_argument_parser():
         "-d",
         "--device-id",
         dest="device_id",
-        help="the id of the camera that shall be used (if you want to use a video, see the '-f' argument)",
+        help="the id of the camera that shall be used",
         default=1,
         type=int,
     )
